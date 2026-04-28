@@ -6,16 +6,20 @@ A soft and comfy feel for Discord.
 ![Server Search](https://i.imgur.com/nqgmfT0.png)
 ![Settings](https://i.imgur.com/KEC161G.png)
 
+## Features
+
+- **Auto Light/Dark mode switch**: Follows your system settings automatically.
+- **Radial Glow removed**: Clean interface without the radial status ring glow.
+
 ## Download
 
-BetterDiscord Download: [https://betterdiscord.app/theme/SoftX](https://betterdiscord.app/Download?id=515)  
-Powercord Install: `git clone https://github.com/DiscordStyles/SoftX --branch deploy`  
-Vencord link: `https://raw.githubusercontent.com/DiscordStyles/SoftX/deploy/SoftX.theme.css`
+Powercord Install: `git clone https://github.com/MaxTomahawk/SoftX-Light-Dark --branch deploy`  
+Vencord link: `https://raw.githubusercontent.com/MaxTomahawk/SoftX-Light-Dark/deploy/SoftX.theme.css`
 
 ## Contributing
 
-Looking to contribute to SoftX theme? Read the the [contributing.md](https://github.com/DiscordStyles/SoftX/blob/main/CONTRIBUTING.md) file.
+Looking to contribute to SoftX theme? Read the the [contributing.md](https://github.com/MaxTomahawk/SoftX-Light-Dark/blob/main/CONTRIBUTING.md) file.
 
 ## License
 
-See the [LICENSE](https://github.com/DiscordStyles/SoftX/blob/main/LICENSE.md) file for license rights and limitations (MIT).
+See the [LICENSE](https://github.com/MaxTomahawk/SoftX-Light-Dark/blob/main/LICENSE.md) file for license rights and limitations (MIT).
