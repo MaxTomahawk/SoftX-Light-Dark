@@ -9,5 +9,9 @@ export default {
 		invite: 'ZHthyCw'
 	},
 	github: 'MaxTomahawk',
-	addons: [{ target: 'src/addons/_radialglow.scss', name: 'RadialGlow' }]
+	addons: [
+		{ target: 'src/addons/_radialglow.scss', name: 'RadialGlow' },
+		{ target: 'src/SoftX-Dark.scss', name: 'SoftX-Dark.theme' },
+		{ target: 'src/SoftX-Light.scss', name: 'SoftX-Light.theme' }
+	]
 };

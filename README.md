@@ -13,8 +13,10 @@ A soft and comfy feel for Discord.
 
 ## Download
 
-Powercord Install: `git clone https://github.com/MaxTomahawk/SoftX-Light-Dark --branch deploy`  
-Vencord link: `https://raw.githubusercontent.com/MaxTomahawk/SoftX-Light-Dark/deploy/SoftX.theme.css`
+Powercord Install: `git clone https://github.com/MaxTomahawk/SoftX-Light-Dark --branch deploy`
+
+**Vencord Dark Theme**: `https://raw.githubusercontent.com/MaxTomahawk/SoftX-Light-Dark/deploy/SoftX-Dark.theme.css`  
+**Vencord Light Theme**: `https://raw.githubusercontent.com/MaxTomahawk/SoftX-Light-Dark/deploy/SoftX-Light.theme.css`
 
 ## Contributing
 

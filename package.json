@@ -2,9 +2,9 @@
 	"private": false,
 	"type": "module",
 	"scripts": {
-		"dev": "bun --bun bd-scss dev",
-		"build": "bun --bun bd-scss build",
-		"reroll": "bun --bun bd-scss reroll"
+		"dev": "bd-scss dev",
+		"build": "bd-scss build",
+		"reroll": "bd-scss reroll"
 	},
 	"dependencies": {
 		"bd-scss": "^3.0.8"

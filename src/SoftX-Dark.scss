@@ -1,0 +1,7 @@
+@use 'theme/vars';
+@use 'main';
+@import 'root';
+
+:root {
+	@include vars.dark-vars;
+}

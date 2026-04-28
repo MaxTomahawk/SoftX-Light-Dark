@@ -95,16 +95,4 @@
 	--guildbar-folder-size: var(--server-size);
 }
 
-.theme-dark {
-	@include dark-vars;
-}
 
-.theme-light {
-	@include light-vars;
-}
-
-@media (prefers-color-scheme: light) {
-	:root:not(.theme-dark) {
-		@include light-vars;
-	}
-}
