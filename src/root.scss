@@ -11,7 +11,7 @@
 	--accent: hsl(164 100% 45%); /* Colour used around the app. | Any valid CSS unit. | Default: hsl(164 100% 45%) */
 	--accent-text: hsl(0 0 0%); /* Colour used on solid or high contrast accent backgrounds. | hsl(0 0 10%) */
 
-	--glow-intensity: 1; /* Intensity of the glow used around the app. | Set to 0 to disable the glow. | Decimals allowed | Default: 1 */
+	--glow-intensity: 0; /* Intensity of the glow used around the app. | Set to 0 to disable the glow. | Decimals allowed | Default: 1 */
 
 	--members-width: 280px; /* Width of the members list. | Default: 280px */
 	--guilds-width: 95px; /* Width of the server list. | Default: 105px */
@@ -33,15 +33,6 @@
 	--rs-small-width: 1.5px; /* Ring width (follows same sizing as above) | Default: 1.5px */
 	--rs-medium-width: 2px; /* Default: 2px */
 	--rs-large-width: 2px; /* Default: 2px */
-
-	/* Customizable colors */
-	--rs-online-color: #43b581; /* Default: #43b581 */
-	--rs-idle-color: #faa61a; /* Default: #faa61a */
-	--rs-dnd-color: #f04747; /* Default: #f04747 */
-	--rs-offline-color: #636b75; /* Default: #636b75 */
-	--rs-streaming-color: #643da7; /* Default: #643da7 */
-	--rs-invisible-color: #747f8d; /* Default: #747f8d */
-	--rs-phone-color: var(--rs-online-color); /* Color of the phone for mobile users | Default: var(--rs-online-color) */
 
 	--rs-phone-visible: block; /* Visibility of the phone for mobile users | Default: block */
 }

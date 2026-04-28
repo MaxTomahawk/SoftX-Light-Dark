@@ -112,7 +112,6 @@ $statusMap: (
 	}
 	#{selector.append('.wrapper__44b0c', selector.simple-selectors($parsedItem))},
 	#{selector.append('.avatarWrapper', '[data-status="#{$statusType}"]')} .wrapper__44b0c {
-		box-shadow: 0 0 calc(var(--glow-intensity) * 10px) var(--rs-#{$statusType}-color);
 	}
 }
 
