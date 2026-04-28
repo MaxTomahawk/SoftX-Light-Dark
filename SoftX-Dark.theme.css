@@ -2,7 +2,7 @@
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
 :root {
-  --softx-version: '2.0.0-alpha';
+  --softx-version: "2.0.0-alpha";
   --transition: 0.15s ease;
   --chat-glow-intensity: var(--glow-intensity);
   --channel-glow-intensity: var(--glow-intensity);
@@ -25,8 +25,8 @@
   --custom-message-avatar-size: var(--chat-avatar-size);
   --custom-message-margin-horizontal: var(--space-xxl);
   --text-link: var(--accent) !important;
-  --font-primary: var(--font, 'Whitney');
-  --font-display: var(--font, 'Whitney');
+  --font-primary: var(--font, "Whitney");
+  --font-display: var(--font, "Whitney");
   --background-mentioned: var(--accent);
   --guildbar-folder-size: var(--server-size);
 }
@@ -689,7 +689,8 @@ body,
 
 #app-mount .newMessagesBar__0f481 {
   background: hsl(from var(--accent) h s l/0.1);
-  backdrop-filter: blur(var(--foreground-blur));
+  -webkit-backdrop-filter: blur(var(--foreground-blur));
+          backdrop-filter: blur(var(--foreground-blur));
   color: var(--accent);
   left: 0;
   right: 0;
@@ -816,7 +817,8 @@ body,
 #app-mount .popout__76f04 {
   background: var(--fg-primary);
   padding: 0;
-  backdrop-filter: blur(var(--foreground-blur));
+  -webkit-backdrop-filter: blur(var(--foreground-blur));
+          backdrop-filter: blur(var(--foreground-blur));
   box-shadow: var(--shadow-lg);
 }
 #app-mount .popout__76f04 .title__76f04 {
@@ -847,7 +849,7 @@ body,
   /*
    * SoftX variables
    */
-  --background-image: url('https://i.imgur.com/Nglfni6.png'); /* Background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  --background-image: url("https://i.imgur.com/Nglfni6.png"); /* Background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
   --background-blur: 0px; /* Blur intensity of --background-image | Must end in px | Default: 0px */
   --accent: hsl(164 100% 45%); /* Colour used around the app. | Any valid CSS unit. | Default: hsl(164 100% 45%) */
   --accent-text: hsl(0 0 0%); /* Colour used on solid or high contrast accent backgrounds. | hsl(0 0 10%) */
@@ -857,7 +859,7 @@ body,
   --server-icon-size: 46; /* Size of the servers inside the server list. | Default: 46px */
   --chat-avatar-size: 40px; /* Size of the chat avatars. | Default: 32px */
   --opacity: 0.85; /* Opacity of overall app. | Default: .85 */
-  --font: 'Inter'; /* Custom font | Default: 'Inter' */
+  --font: "Inter"; /* Custom font | Default: 'Inter' */
   /*
    * RadialStatus veriables
    */
